@@ -1,0 +1,396 @@
+/**************************** 
+Univeral Css 
+*****************************/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/**************************** 
+header Section css
+*****************************/
+header{
+    width: 100%;
+    padding: 15px 0px;
+    position: absolute;
+}
+header ul li{
+    margin-right: 50px;
+}
+header ul li a{
+    color: white !important;
+}
+header ul li a:hover{
+    color: #ffb233 !important;
+}
+/**************************** 
+banner Section css
+*****************************/
+.banner{
+    background-image: url(../imgs/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+.banner .details{
+    color: white;
+    text-align: center;
+    padding-top: 220px;
+}
+.banner .details h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 52px;
+    font-weight: bold;
+}
+.banner .details p{
+    font-size: 24px;
+    margin-top: 35px;
+}
+.banner .details .icon{
+    margin-top: 140px;
+}
+.banner .details a i{
+    color: white;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #ffb233;
+}
+.banner .details a i:hover{
+    background-color: rgb(46, 143, 255);
+}
+/**************************** 
+about section css
+*****************************/
+.about-section{
+    width: 100%;
+    text-align: center;
+    padding: 60px 0px;
+}
+.about-section .about{
+    width: 100%;
+}
+.about-section h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 65px;
+}
+.about-section p{
+    font-size: 18px;
+    padding-top: 20px;
+    color: #aaa7a7;
+}
+.about-section .details{
+    font-size: 20px;
+    font-weight: 600;
+    width: 85%;
+    margin: auto;
+    color: #3f3f3f;
+}
+.about-section ul{
+    width: 100%;
+    margin-left: -19px;
+}
+.about-section ul li{
+    list-style: none;
+    display: inline-block;
+}
+.about-section li a i{
+    color: white;
+    height: 28px;
+    width: 28px;
+    line-height: 28px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #c6c6c5;
+    margin: 50px 20px
+}
+.about-section li a .icon{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.about-section li a i:hover{
+    background-color: #ffb233;
+}
+.about-section .btn{
+    padding: 6px 37px !important;
+    border-color: #3f9268 !important;
+}
+
+/**************************** 
+services section css
+*****************************/
+.service-section{
+    width: 100%;
+    background-image: url('../imgs/service_banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+.service-section .service-area{
+    text-align: center;
+}
+.service-section .service{
+    width: 60%;
+    margin:auto;
+    text-align: center;
+}
+.service-section h2{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 65px;
+}
+.service-section .service .icon {
+    font-size: 20px;
+    color: white;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 100%;
+    background-color: #ffb233;
+    text-align: center;
+}
+.service-section .service p{
+    font-size: 16px;
+}
+/**************************** 
+data section css
+*****************************/
+.data{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f3f4ff;
+    text-align: center;
+    color: #444444;
+}
+.data h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding-bottom: 14px;
+}
+.data .line{
+    height: 2px;
+    background-color: #51a351;
+    width: 15%;
+    margin: auto;
+}
+.data p{
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 20px;
+}
+/**************************** 
+portfolio section css
+*****************************/
+.portfolio{
+    width: 100%;
+    padding: 80px 0px;
+    
+}
+.title{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333b46;
+    text-align: center;
+}
+.portfolio .menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 16px 20px 16px;
+}
+.portfolio .menu li a{
+    color: rgba(0, 0, 0, 0.75);
+}
+.portfolio .img-gallery{
+    display: flex;
+}
+.img-gallery img {
+    margin-bottom: 10px;
+}
+.hover-effect .line{
+    height: 2px;
+    background-color: #1ba98a;
+    width: 40px;
+}
+.hover-effect h2{
+    color:  #1ba98a;
+}
+.hover-effect p{
+    color: #e4e4e4;
+}
+.effect{
+    position: relative;
+    /* overflow: hidden; */
+    margin: 8px;
+}
+.hover-effect{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    left: 0px;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.hover-effect a{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+.hover-effect a i{
+    color: #e4e4e4;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+}
+.effect:hover .hover-effect{
+    
+    display: block;
+    bottom: 11px;
+}
+.portfolio .btn-3{
+    margin-top: 40px;
+    text-align: center;
+}
+.portfolio .btn-3 .btn{
+    padding: 15px 40px !important;
+} 
+.portfolio .btn-3 .btn-primary{
+    background-color: #51a351;
+    border-color: #51a351;
+}
+/**************************** 
+testimonial section css
+*****************************/
+.testimonial{
+    width: 100%;
+    background-image: url('../imgs/testo-banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 80px 0px;
+}
+.testimonial .quote{
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+}
+.testimonial h5{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.owl-carousel .owl-item img {
+    /* display: block; */
+    width: auto !important;
+    display: inline-block;
+}
+/**************************** 
+footer section css
+*****************************/
+footer{
+    width: 100%;
+    background-image: url('../imgs/footer_banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    color: white;
+}
+footer .information{
+    width: 100%;
+    padding: 55px 0px;
+    margin-left: 50px;
+}
+footer .information h2{
+    font-size: 32px;
+    
+}
+footer .information .contact p{
+    margin: 30px 0px 10px 0px;
+}
+footer .information .contact a{
+    color: white;
+    text-decoration: underline;
+}
+footer .information .contact a:hover{
+    color:  #ffb233;
+}
+footer h6{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer .details{
+    margin: 30px 0px 10px 0px;
+}
+footer p{
+    font-size: 20px;
+}
+footer .message{
+    width: 90%;
+    margin-left: auto;
+}
+footer .message input{
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+footer .message input:hover{
+    border-color: #ffb233;
+}
+footer .message input::placeholder{
+    color: white;
+}
+footer .message textarea{
+    width: 82%;
+    height: 25vh;
+    margin-left: 11px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+}
+footer .message textarea:hover{
+    border-color: #ffb233;
+}
+footer .message textarea::placeholder{
+    padding: 15px;
+    color: white;
+}
+footer .message button{
+    width: 82%;
+    margin: 18px 0px 0px 11px;
+    padding: 15px;
+    background-color: #51a351;
+    color: white;
+    border: none;
+    border: 1px solid #51a351;
+    border-radius: 2px;
+}
+footer .copy{
+    font-size: 13px;
+    text-align: center;
+    margin: 30px 0px;
+    text-transform: uppercase;
+    margin-right: 65px;
+}
